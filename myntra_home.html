@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra Shopping Page</title>
+    <style>
+
+      body {
+        margin: 0;
+      }
+
+
+
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        top: 100px;
+        position: relative;
+        left: 150px;
+      }
+      .content{
+  position: relative;
+  top: 0px;
+}
+
+      .item {
+        background-color: rgb(222, 109, 181);
+        position: relative;
+        width: 200px;
+        height: 250px;
+        border-radius: 6px;
+        
+        
+      }
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+      .card {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 2px;
+      }
+      .top-nav{
+        height: 100px;
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+      }
+      .img-logo{
+        display: inline-block;
+      }
+      .top-nav img{
+       
+        left: 20px;
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        
+      }
+      .nav-menu{
+        display: inline-block;
+        top:40px;
+        left:200px;
+        position: absolute;
+      }
+      .nav-menu a{
+        font-family:Cambria;
+        font-size: large;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        
+      }
+      .search-box {
+        display: inline-block;
+	width: 380px;
+	margin: 0px auto;
+	margin-top: -8px;
+  top:40px;
+        left:750px;
+  position: absolute;
+	text-align: center;
+}
+.search-box .s-input {
+	display: inline-block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.search-box  .s-input:hover {
+	border: 1px solid #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+}
+.search-box .search-icon {
+  display: inline;
+	width: 20px;
+	opacity: .4;
+	position: absolute;
+	top: -35px;
+	left: 1px;
+}
+aside{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+aside p{
+  left: 10px;
+  font:medium;
+}
+    </style>
+  </head>
+  <body>
+    <div class="top-nav">
+    <div class="img-logo">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\logo.png" />
+      </div>
+      <div class="nav-menu">
+        <a href="#"> MEN</a> <a href="#"> WOMEN</a> <a href="#"> KIDS</a> <a href="#"> HOME&LIVING</a> <a href="#"> BEAUTY</a> <a href="#"> STUDIO</a>
+      </div>
+      <div class="search-box">
+        <img src="D:\ReactJS\ReactJS_VSS\Assignments\Chrome _home_page\search.svg" class="search-icon">
+        <input type="text" class="s-input">
+      </div>
+    </div>
+    <div class="content">
+    <div class="box">
+      
+      <div class="item"><img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\1.jpg" />
+        <div class="card">
+           4.1(458)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\2.jpg" />
+        <div class="card">
+            3.5(588)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\3.jpg" />
+        <div class="card">
+            4.1(366)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\4.png" />
+        <div class="card">
+            2.3(25)
+        </div>
+      </div>
+      <div class="item"> 
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\5.png" />
+        <div class="card">
+        3.6(255)
+    </div>
+</div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\1.jpg" />
+        <div class="card">
+            4.3(5268)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\2.jpg" />
+        <div class="card">
+            3.9(152)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\3.jpg" />
+        <div class="card">
+            3.0(236)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\4.png" />
+        <div class="card">
+            2.1(2)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\5.png" />
+        <div class="card">
+            3.8(785)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\1.jpg" />
+        <div class="card">
+            4.9(458)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\2.jpg" />
+        <div class="card">
+            3.6(452)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\3.jpg" />
+         <div class="card">
+        2.1(458)
+    </div></div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\4.png" />
+        <div class="card">
+            1.2(50)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\5.png" />
+        <div class="card">
+            3.4(25)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\1.jpg" />
+        <div class="card">
+            4.2(125)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\2.jpg" />
+        <div class="card">
+            3.9(452)
+        </div>
+      </div>
+      <div class="item">
+        <img class="image" src="d:\ReactJS\ReactJS_VSS\Assignments\Myntra Shopping Page\Imgs\3.jpg" />
+        <div class="card">
+            4.5(528)
+            
+        </div>
+      </div>
+     
+    </div>
+
+    <aside>
+      <h2>Filters</h2>
+  <div class="category">
+      <h3>category</h3>
+        <input type="checkbox" id="vehicle1" name="cat" value="kurtis">
+        <label for="vehicle1"> Kurtis</label><br>
+        <input type="checkbox" id="vehicle2" name="cat" value="tops">
+        <label for="vehicle2"> Tops</label><br>
+        <input type="checkbox" id="vehicle3" name="cat" value="sarees">
+        <label for="vehicle3"> Sarees</label><br><br>
+       
+      </div>
+      <div class="brands">
+        <h3>Brands</h3>
+        <input type="checkbox" id="vehicle1" name="cat" >
+        <label for="vehicle1"> Aurelia</label><br>
+        <input type="checkbox" id="vehicle2" name="cat" >
+        <label for="vehicle2"> Biba</label><br>
+        <input type="checkbox" id="vehicle3" name="cat" >
+        <label for="vehicle3"> ADA</label><br>
+        <input type="checkbox" id="vehicle1" name="cat" >
+        <label for="vehicle1"> Here And Now</label><br>
+        <input type="checkbox" id="vehicle2" name="cat" >
+        <label for="vehicle2"> Kalini</label><br>
+        <input type="checkbox" id="vehicle3" name="cat">
+        <label for="vehicle3"> Sangria</label><br><br>
+      </div>
+    </aside>
+  </div>
+  </body>
+</html>
